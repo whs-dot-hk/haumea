@@ -10,7 +10,7 @@ in
 haumea.load {
   src = ./__fixture;
   transformer = [
-    liftDefault
     (hoistLists "_imports" "imports")
+    liftDefault
   ];
 }
